@@ -1,6 +1,5 @@
 function encriptar(){
     var frase = document.getElementById('entrada').value; //Se obtiene la frase escrita por el usuario
-    if()
     var frase_encriptada = frase.replace(/e/g,"enter").replace(/i/g,"imes").replace(/a/g,"ai").replace(/o/g,"ober").replace(/u/g,"ufat"); //Se realiza la encriptación según las reglas definidas
     frase = document.getElementById('entrada').value = ''; //Pone en blanco el espacio de entrada de texto
     var salida = document.getElementById('salida').value = frase_encriptada; //Coloca el resultado en el espacio de salida
