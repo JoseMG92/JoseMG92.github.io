@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    
+
+    <main class="main">
+        <h1 class="titulo">Código Secreto</h1>
+        <div class="box">
+            <form name="entrada" action="">
+                <label for="entradaTexto">&#x2757 Introduce un texto, en minúsculas, sin acentos: </label>
+                <input class="textInput" type="text" placeholder="Escribe aquí" id="entrada">
+                <input class="button" type="button" value="Encriptado!" onclick="encriptar()">
+                <input class="button" type="button" value="Desencriptado!" onclick="desencriptar()">
+            </form>
+        </div> 
+
+        <div class="box">
+            
+            <form name="salida" action="">
+                <label for="entradaTexto">Aquí irá tu resultado: </label>
+                <input class="textInput" type="text" placeholder="Aquí aparecerá tu resultado" id="salida">
+                <input class="button" type="button" value="Copiar" id="copiar" onclick="copiarTexto()">
+            </form>
+        </div>
+
+        <footer><br> Hecho con &#128147 por José Meza González</footer>
+    
+        <script src="scripts.js"></script>
+
+    </main>
+</body>
+</html>
